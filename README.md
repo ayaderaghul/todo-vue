@@ -1,5 +1,5 @@
 📋 Vue 3 Todo App with Vue Router
-A simple Todo List application built with Vue 3 and Vue Router, featuring:
+A simple Todo List application built with Vue 3 and Vue Router ([vercel deployed](https://todo-vue-gamma-one.vercel.app/)), featuring:
 
 Add, remove, and mark tasks as completed ✅
 
