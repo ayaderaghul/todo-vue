@@ -1,4 +1,4 @@
-📋 Vue 3 Todo App with Vue Router
+# 📋 Vue 3 Todo App with Vue Router
 A simple Todo List application built with Vue 3 and Vue Router ([vercel deployed](https://todo-vue-gamma-one.vercel.app/)), featuring:
 
 Add, remove, and mark tasks as completed ✅
@@ -9,7 +9,7 @@ Persistent storage using LocalStorage 💾
 
 Navigation between Home, About, and Todo Details pages 📄
 
-🚀 Features
+# 🚀 Features
 Vue 3 Composition API for reactive state management
 
 Vue Router for multiple pages and dynamic routes
@@ -20,9 +20,10 @@ UUID for unique task IDs
 
 Responsive and minimal UI
 
-📂 Project Structure
-bash
-Copy code
+# 📂 Project Structure
+
+```bash
+
 src/
   pages/
     Home.vue         # Main Todo List
@@ -32,29 +33,34 @@ src/
     index.js         # Vue Router setup
   App.vue            # Main app layout with navigation
   main.js            # Entry point
-🛠 Installation
+```
+
+# 🛠 Installation
 Make sure you have Node.js (v18 or higher) installed.
 Clone the repo and install dependencies:
 
-bash
-Copy code
+```bash
 git clone https://github.com/your-username/vue-todo-router.git
 cd vue-todo-router
 npm install
-🖥 Run the App (Development)
-bash
-Copy code
+```
+
+# 🖥 Run the App (Development)
+```bash
 npm run dev
+```
+
 Then open http://localhost:5173 in your browser.
 
-📦 Build for Production
-bash
-Copy code
+# 📦 Build for Production
+```bash
 npm run build
+```
+
 The build will be generated in the dist/ folder.
 You can deploy it to Netlify, Vercel, GitHub Pages, or any static hosting service.
 
-📌 Usage
+# 📌 Usage
 Home Page
 
 Add a new todo via the input box.
@@ -71,12 +77,12 @@ Todo Details Page
 
 Shows text and status of the selected todo.
 
-🔧 Tech Stack
+# 🔧 Tech Stack
 Vue 3 (Composition API)
 
 Vue Router
 
 LocalStorage for persistence
 
-📝 License
+# 📝 License
 MIT License — feel free to use and modify as you wish.
